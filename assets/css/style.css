@@ -4,4 +4,14 @@
 
 body {
     font-family: "istok web", arial, sans-serif;
+    color: green;
 }
+
+/* header */
+
+#warning {
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
