@@ -289,6 +289,7 @@ Overall, the design was intended to show that support is available without addin
   - [Pexels](https://www.pexels.com/) for photograps used on this site, credit to Ben Mack.
   - [Google fonts](https://fonts.google.com/) for font used on the site.
   - [Font awesome](https://fontawesome.com/) for icons used on the site.
+  - [pixabay](https://pixabay.com/) for quotes background image, credit to larisa Periman.
 
 
 ### **Acknowledgements** 

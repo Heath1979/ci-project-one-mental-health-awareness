@@ -36,3 +36,16 @@ header {
 #main-content {
     background: url('../images/sunrise-pastel.png') no-repeat center/cover;
 }
+
+#quotes {
+    background: url('../images/dog-in-highlands.from-pixabay.laresa-perlman.jpg') no-repeat center/cover;
+    color: black;
+}
+
+#quotes p {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 700;
+    color: #2e24b1;
+    border: 2px solid white;
+}
