@@ -9,9 +9,30 @@ body {
 
 /* header */
 
+header {
+    display: flex;
+    flex-direction: column;
+}
+
 #warning {
     background-color: red;
     color: white;
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
+#brand {
+    background: url('../images/mhfa-header.jpg') no-repeat center/cover;
+}
+
+#brand-message {
+    background-color: rgb(255, 255, 255, .5);
+    text-align: center;
+}
+
+/*main*/
+
+#main-content {
+    background: url('../images/sunrise-pastel.png') no-repeat center/cover;
+}
