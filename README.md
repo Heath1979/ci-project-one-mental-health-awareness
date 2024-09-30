@@ -126,4 +126,171 @@ The site was developed to be simple, clear, and familiar.
 ![homepage wireframe-desktop](docs/documentation/wireframe-mobile-mhfa.png)
 </details> 
 
+### **5. Surface**  
 
+ A design was created that allowed a consistent flow throughout the site.   
+ - A background color was implemented to add a calm atmosphere and allow for content to be easily viewed.  
+ - A palette of soft green's, blue's, and yellow's was used to help the user identify with nature.  
+
+Overall, the design was intended to show that support is available without adding to any further distress a user may be experiencing.  
+ 
+---   
+  
+  
+## Design  
+
+### **Color Scheme**  
+
+
+  
+### **Typography**  
+  
+
+        
+### **Imagery**  
+  
+
+
+---  
+  
+
+## Page Features  
+
+### **Navbar**   
+<details open>
+<summary></summary>  
+
+![screenshot of navbar](docs/documentation/) 
+</details>
+
+<br>  
+
+<br> 
+
+<br>
+
+  
+### **Menu Page** 
+<details>
+<summary></summary> 
+
+![screenshot of menu page](docs/documentation/)  
+</details>
+
+
+<br>
+
+### **Contact Page**  
+<details>
+<summary></summary> 
+ 
+![screenshot of contact us page](docs/documentation/)  
+</details>
+
+
+<br>
+
+### **Footer**  
+<details>
+<summary></summary>
+
+![screenshot of footer](docs/documentation/)
+</details>
+
+
+---   
+
+
+## Tablet & Mobile View  
+ 
+### **Desktop, Tablet & Mobile Differences**  
+  
+
+  
+### **Tablet View (iPad Mini/iPad Pro/Surface Pro)**  
+  
+
+
+
+### **Mobile View (iPhone 5/iPhone SE/iPhone XR/iPhone 12 Pro)**  
+  
+
+---  
+                              
+
+## Future Features  
+
+- For future development, I would like to add a call to action button that would deploy a modal linking users to relevant emergency suport services.  
+- Develop further pages to contain relevant helpful links to a greater library of external resources with a brief summary of those resources.
+- A gallery page of inspirational images and quotes designed to empower the user.
+  
+---   
+  
+
+## Technologies Used    
+
+### **Languages Used**   
+
+- HTML5
+- CSS3
+
+### **Frameworks, Libraries, Technologies & Programs Used**  
+
+
+## Deployment
+
+### **How to deploy**  
+
+
+
+---  
+    
+
+## Testing  
+
+### **Initial testing plan**
+
+  
+### **Testing**    
+
+
+ 
+### **HTML Validation using W3C Validation**  
+
+<br>  
+
+### **CSS Validation using W3C Validation** 
+
+
+<br>  
+
+### **Lighthouse scores via Chrome Developer Tools**   
+  
+  
+### **Bugs & Fixes**  
+  
+
+### **Unsolved Bugs** 
+
+
+## Credits  
+  
+### **Content References**
+- [World Health Organisation](https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work) for information relating to numbers affected by Mental Health issues and statistics on days lost.
+- [Code Institute](https://codeinstitute.net/ie/) for their HTML/CSS learning material.
+- [MHFA England](https://mhfaengland.org/mhfa-centre/blog/impact-of-MHFA/#:~:text=Since%20its%20inception%2C%20there%20have,to%20support%20themselves%20or%20others) for information on the benefits of using MHFA's in the workplace.
+- [Mayo clinic](https://www.mayoclinic.org/diseases-conditions/mental-illness/symptoms-causes/syc-20374968) for common symptoms of Mental Health illness.
+- [Piedmont](https://www.piedmont.org/living-real-change/10-ways-to-fight-depression-%E2%80%93-naturally) for providing natural remedies to common symptoms of Mental Health illness.
+- J.K Rowling - "The prisoner of Azkaban" for providing the Albus Dumbledore quote.
+- [NHS England](https://www.nhs.uk) for clarification on action to be taken in an emergency and for identifying font used acroos NHS websites.
+- [7 Summit Pathways](https://7summitpathways.com/blog/15-positive-mental-health-quotes/) for providing inspirational quotes.
+
+### **Media References**  
+  - [Pexels](https://www.pexels.com/) for photograps used on this site, credit to Ben Mack.
+  - [Google fonts](https://fonts.google.com/) for font used on site.
+
+
+### **Acknowledgements** 
+- I would like to acknowledge my Code Institute learning facilitator, Amy Richardson, and my Code Institute SME, Kevin Loughrey, for the support and guidance in the build up and during the development of this project.
+- The Lancs 2024 BC cohort who have been an inspration in providing support and solidarity.
+- My family for testing my work and helping to create images for the project
