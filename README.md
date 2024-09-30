@@ -144,11 +144,11 @@ Overall, the design was intended to show that support is available without addin
 
   
 ### **Typography**  
-  
+  Looked to kepp typography in line with NHS fonts. NHS uses a font called frutiger. Nearest available on google fonts was Istok-Web
 
         
 ### **Imagery**  
-  
+  Scope was to use calming images. Central background is a pastel image that opens into a sunset on larger screens and whilst visually different on various screens adds a pleaseing aspect. At the head of the page I wanted to try and focus on the idea that of people being given help in the workplace. The final in the quotes section is of a dog in the Scottish Highlands. This section sits directly under the aids to alleviate issues section and has been used in an attempt to underline the idea of being out in nature and also pet therapy.
 
 
 ---  
@@ -268,7 +268,7 @@ Overall, the design was intended to show that support is available without addin
   
   
 ### **Bugs & Fixes**  
-  
+  Initial issues with brand image in the head of the site. Image would not maintain integrity as a background image set in CSS. Set up as an image in HTML but needs further work in relation to sizing when viewing on different screen sizes.
 
 ### **Unsolved Bugs** 
 
