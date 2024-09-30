@@ -41,3 +41,16 @@ header {
     color: #2e24b1;
     border: 2px solid white;
 }
+
+/*footer*/
+
+footer {
+    display: flex;
+    text-align: center;
+    background-color: black;
+    justify-content: space-evenly;
+}
+
+footer i {
+    color: white;
+}
