@@ -239,6 +239,18 @@ Overall, the design was intended to show that support is available without addin
 
 ## Deployment
 
+GitHub was used to deploy the website. These were the steps taken to acheive this:  
+
+1. Login to GitHub account
+2. Navigate to the project repository, scoops_pp1
+3. Click the Settings button near the top of the page
+4. In the left-hand menu, find and click on the Pages button
+5. In the Source section, choose 'main' from the drop-down, select branch menu
+6. Select 'root' from the drop-down folder menu
+7. Click 'Save' and after a few moments the project will have been made live and a link is visible at the top of the page
+
+![screenshot of how to deploy site on github](docs/documentation/deployment-information.png) 
+
 ### **How to deploy**  
 
 
@@ -268,7 +280,8 @@ Overall, the design was intended to show that support is available without addin
   
   
 ### **Bugs & Fixes**  
-  Initial issues with brand image in the head of the site. Image would not maintain integrity as a background image set in CSS. Set up as an image in HTML but needs further work in relation to sizing when viewing on different screen sizes.
+  Initial issues with brand image in the head of the site. Image would not maintain integrity as a background image set in CSS. Set up as an image in HTML but needs further work in relation to sizing when viewing on different screen sizes. Opted to create a smaller image that would sit along side the brand name. Issue caused on smaller screen devices when icon slipped under name so changed font-weight to accomodate.
+
 
 ### **Unsolved Bugs** 
 

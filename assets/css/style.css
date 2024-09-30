@@ -5,7 +5,7 @@
 body {
     font-family: "istok web", arial, sans-serif;
     color: green;
-    background-color: cornsilk;
+    background: url('../images/sunrise-pastel.png') no-repeat center/cover;
 }
 
 /* header */
@@ -26,6 +26,13 @@ img {
     font-size: small;
 }
 
+#brand-statement {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    border: solid 3px cornsilk;
+}
+
 #warning {
     background-color: red;
     color: white;
@@ -36,21 +43,11 @@ img {
 
 /*main*/
 
-#main-content {
-    background: url('../images/sunrise-pastel.png') no-repeat center/cover;
-}
-
 #quotes {
-    background: url('../images/dog-in-highlands.from-pixabay.laresa-perlman.jpg') no-repeat center/cover;
-    color: black;
-}
-
-#quotes p {
     display: flex;
     flex-wrap: wrap;
     font-weight: 700;
-    color: #2e24b1;
-    border: 2px solid white;
+    justify-content: center;
 }
 
 /*footer*/
@@ -60,8 +57,11 @@ footer {
     text-align: center;
     background-color: cornsilk;
     justify-content: space-evenly;
+    padding: 20px 0;
 }
 
 footer i {
     color: green;
+   font-size: 160%;
+   padding: 5%;
 }
