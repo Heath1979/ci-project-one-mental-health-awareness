@@ -21,7 +21,6 @@ body {
 header {
     position: fixed;
     width: 100%;
-    z-index: 1;
     background-color: cornsilk;
 }
 
@@ -39,6 +38,8 @@ img {
 
 #brand-header {
     font-size: small;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 #brand-statement {
@@ -62,6 +63,11 @@ img {
 
 #menu > li {
     margin-bottom: 1em;
+}
+
+#brand-statement-nav {
+    display: flex;
+    flex-direction: row;
 }
 
 /*navbar*/
@@ -91,7 +97,7 @@ nav {
 /*main*/
 
 main {
-    margin: 200px 10px 35px 10px;
+    margin: 160px 10px 35px 10px;
 }
 
 h2 {
