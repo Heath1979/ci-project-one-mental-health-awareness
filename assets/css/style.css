@@ -151,16 +151,16 @@ footer i {
     }
 
     #menu {
-        display: flex;
-    }
-
-    #menu > li {
-        padding-left: 1rem;
+       display: flex;
+       flex-direction: row;
+       margin-left: 40px;
+       margin-right: 40px;
     }
 
     #menu a {
         color: green;
         text-decoration: none;
+        padding: 5px;
     }
 
     .nav-toggle-label {
@@ -190,11 +190,20 @@ footer i {
 img {
     border-radius: 50%;
     height: 10vh;
-    width: 20vw;
+    width: 15vw;
 }
 
 #brand-header {
     font-size: larger;
 }
-
 }    
+
+/* media query: laptops and larger (992px and up) */
+@media screen and (min-width: 992px) {
+
+    #menu {
+        display: flex;
+        justify-content: center;
+    }
+
+}
