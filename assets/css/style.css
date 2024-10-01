@@ -60,7 +60,6 @@ img {
 /*navbar*/
 nav {
     position: relative;
-    background-color: #ffffff;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
     padding: 0 1rem;
@@ -121,3 +120,31 @@ footer i {
    font-size: 110%;
    padding: 5%;
 }
+
+/* media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    #menu a {
+        color: green;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+}    
