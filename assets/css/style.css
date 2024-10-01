@@ -89,6 +89,16 @@ main {
     margin-bottom: 35px;
 }
 
+#links a {
+    color: green;
+    text-decoration: none;
+}
+
+#links a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
 #quotes {
     display: flex;
     flex-wrap: wrap;
@@ -103,11 +113,11 @@ footer {
     text-align: center;
     background-color: cornsilk;
     justify-content: space-evenly;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 footer i {
-    color: green;
-   font-size: 160%;
+   color: green;
+   font-size: 110%;
    padding: 5%;
 }
