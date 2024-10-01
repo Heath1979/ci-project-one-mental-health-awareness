@@ -27,7 +27,7 @@ header {
 img {
     border-radius: 50%;
     height: 10vh;
-    width: 10vh;
+    width: 10vw;
 }
 
 #brand-header {
@@ -181,4 +181,20 @@ footer i {
    main {
     padding: 20px;
    }
+
+   #brand-statement-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    border-radius: 50%;
+    height: 10vh;
+    width: 20vw;
+}
+
+#brand-header {
+    font-size: larger;
+}
+
 }    
