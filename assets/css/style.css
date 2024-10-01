@@ -29,8 +29,6 @@ img {
 #brand-statement {
     display: flex;
     justify-content: center;
- /*   margin: 0;
-    border: solid 3px cornsilk; */
 }
 
 #warning {
@@ -40,6 +38,41 @@ img {
     margin-top: 0;
     margin-bottom: 0;
 }
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+/*navbar*/
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    padding: 0 1rem;
+    left: 0;
+    display: none;
+    top: 100%;
+    }
+    
+    /* nav toggle */
+    #nav-toggle:checked~nav {
+        display: block;
+    }
+    
+    #nav-toggle {
+        display: none;
+    }
+    
+    .nav-toggle-label {
+        font-size: 2rem;
+    }
 
 /*main*/
 
