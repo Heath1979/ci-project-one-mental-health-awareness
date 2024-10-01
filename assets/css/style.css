@@ -157,6 +157,7 @@ footer i {
 
    .lists {
     display: flex;
+    flex-direction: column;
     align-items: center;
    }
 }    
