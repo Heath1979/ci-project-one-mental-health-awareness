@@ -281,6 +281,8 @@ GitHub was used to deploy the website. These were the steps taken to acheive thi
   
 ### **Bugs & Fixes**  
   Initial issues with brand image in the head of the site. Image would not maintain integrity as a background image set in CSS. Set up as an image in HTML but needs further work in relation to sizing when viewing on different screen sizes. Opted to create a smaller image that would sit along side the brand name. Issue caused on smaller screen devices when icon slipped under name so changed font-weight to accomodate.
+  Added wildcard selector in style.css to override browser defaults and remove margins at top and foot of page.
+  
 
 
 ### **Unsolved Bugs** 

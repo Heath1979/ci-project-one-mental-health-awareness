@@ -1,11 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 /* general styles */
 
 body {
     font-family: "istok web", arial, sans-serif;
     color: green;
     background: url('../images/sunrise-pastel.png') no-repeat center/cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* header */
@@ -65,11 +74,11 @@ nav {
     #nav-toggle:checked~nav {
         display: block;
     }
-    
+    /*
     #nav-toggle {
         display: none;
     }
-    
+    */
     .nav-toggle-label {
         font-size: 2rem;
     }
