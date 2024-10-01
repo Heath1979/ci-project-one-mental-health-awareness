@@ -29,8 +29,8 @@ img {
 #brand-statement {
     display: flex;
     justify-content: center;
-    margin: 0;
-    border: solid 3px cornsilk;
+ /*   margin: 0;
+    border: solid 3px cornsilk; */
 }
 
 #warning {
