@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 * {
-    padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 
 /* general styles */
@@ -70,7 +69,7 @@ nav {
     top: 100%;
     }
     
-    /* nav toggle */
+/* nav toggle */
     #nav-toggle:checked~nav {
         display: block;
     }
@@ -84,6 +83,11 @@ nav {
     }
 
 /*main*/
+
+main {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
 
 #quotes {
     display: flex;
