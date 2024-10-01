@@ -18,6 +18,13 @@ body {
 
 /* header */
 
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: cornsilk;
+}
+
 img {
     border-radius: 50%;
     height: 10vh;
@@ -84,8 +91,7 @@ nav {
 /*main*/
 
 main {
-    margin-top: 35px;
-    margin-bottom: 35px;
+    margin: 200px 10px 35px 10px;
 }
 
 h2 {
@@ -164,5 +170,9 @@ footer i {
    #lists > ul {
     display: inline-block;
     text-align: left;
+   }
+
+   main {
+    padding: 20px;
    }
 }    
