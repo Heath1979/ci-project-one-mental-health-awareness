@@ -88,6 +88,12 @@ main {
     margin-bottom: 35px;
 }
 
+h2 {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
 #links a {
     color: green;
     text-decoration: none;
@@ -142,9 +148,12 @@ footer i {
 
     #menu a {
         color: green;
+        text-decoration: none;
     }
 
     .nav-toggle-label {
         display: none;
     }
+
+   
 }    
