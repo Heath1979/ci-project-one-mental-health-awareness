@@ -155,5 +155,8 @@ footer i {
         display: none;
     }
 
-   
+   .lists {
+    display: flex;
+    align-items: center;
+   }
 }    
