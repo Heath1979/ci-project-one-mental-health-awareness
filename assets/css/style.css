@@ -142,19 +142,15 @@ footer i {
 @media screen and (min-width: 768px) {
     /* header */
     nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
+        display: flex;
+        justify-content: center;
     }
 
-    #menu {
+   #menu {
        display: flex;
        flex-direction: row;
-       margin-left: 40px;
-       margin-right: 40px;
-    }
+       padding-left: 0;
+    } 
 
     #menu a {
         color: green;
@@ -199,10 +195,6 @@ img {
 
 /* media query: laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {
-
-    #menu {
-       margin-left: 400px;
-    }
 
     main {
         font-weight: 700;
