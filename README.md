@@ -291,27 +291,52 @@ The results of feature testing are as follows:
 <br>  
 
 ### **CSS Validation using W3C Validation** 
+<details open>
+<summary>MHFA CSS validation</summary>  
+
+![screenshot of CSS validation for MHFA](docs/documentation/w3c-css-validator.png)
+</details>   
 
 
 <br>  
 
 ### **Lighthouse scores via Chrome Developer Tools**   
+
+For Desktop   
+<details open>
+<summary>Lighthouse audit for Index page</summary>  
+
+![screenshot of lighthouse audit for index page for MHFA](docs/documentation/lighthouse-audit.png)
+</details> 
+<details >
   
   
 ### **Bugs & Fixes**  
-  Initial issues with brand image in the head of the site. Image would not maintain integrity as a background image set in CSS. Set up as an image in HTML but needs further work in relation to sizing when viewing on different screen sizes. Opted to create a smaller image that would sit along side the brand name. Issue caused on smaller screen devices when icon slipped under name so changed font-weight to accomodate.
-  Added wildcard selector in style.css to override browser defaults and remove margins at top and foot of page.
-  
+
+| Bug | Section | Fix |
+| :----| :----| :--------:|
+| Brand immage would not size correctly at different sizes | Header | Amended to a image in HTML and sat alongside site heading |
+| Default margin around the page looked unsightly | All page | Used wildcard selector to override browser defaults |
+| Navbar opened selection menu in the center of the page | Header | Changed position to relative instead of fixed |
+| List elements not aligning correctly when moved centrally at larger screen sizes | Main | Contained list elements within a div to move centrally and then align the contents to the left |
+| Disc symbols on lists disappeared when adding wildcard styling to CSS | Main | Removed padding from wildcard selector |
+| Navigation elements would not center on larger screen sizes | Header | Temporary fix using absolute margin-left value. Needs further investigation into flexbox in order to align content centrally |  
 
 
 ### **Unsolved Bugs** 
 
+- Navigation elements will not align correctly without the use of absolute styling. Further invetigation is required on the flexbox properties.
+- Navigation bar opens to the left in mobile instead of underneath. Probably that the whole brand-nav-statement section needs a re-build.
+- Hover pseudo prperty does not work on the navigation aspects in the nav bar. Suspect related to other Nav bar issues.
+- Hoped to add HR breaks bewteen the quotes to underline 75% of the quote. Styling on these affected the HR lines in the header.
+- Background image set in style.css is not responsive. 
 
 ## Credits  
   
 ### **Content References**
+All content written for the website has been sourced from other sites (as linked below). The user should be aware that the author has had no input from a clinical panel in relation to the symptoms of mental health illness and potential aids to this kind of condition.
 - [World Health Organisation](https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work) for information relating to numbers affected by Mental Health issues and statistics on days lost.
-- [Code Institute](https://codeinstitute.net/ie/) for their HTML/CSS learning material.
+- [Code Institute](https://codeinstitute.net/ie/) for their HTML/CSS learning material and nav bar information in the "Love Running" project.
 - [MHFA England](https://mhfaengland.org/mhfa-centre/blog/impact-of-MHFA/#:~:text=Since%20its%20inception%2C%20there%20have,to%20support%20themselves%20or%20others) for information on the benefits of using MHFA's in the workplace.
 - [Mayo clinic](https://www.mayoclinic.org/diseases-conditions/mental-illness/symptoms-causes/syc-20374968) for common symptoms of Mental Health illness.
 - [Piedmont](https://www.piedmont.org/living-real-change/10-ways-to-fight-depression-%E2%80%93-naturally) for providing natural remedies to common symptoms of Mental Health illness.
@@ -324,9 +349,9 @@ The results of feature testing are as follows:
   - [Google fonts](https://fonts.google.com/) for font used on the site.
   - [Font awesome](https://fontawesome.com/) for icons used on the site.
   - [pixabay](https://pixabay.com/) for quotes background image, credit to larisa Periman.
-
+  - [Favicon](https://favicon.io/) for the favicon used for this site.
 
 ### **Acknowledgements** 
 - I would like to acknowledge my Code Institute learning facilitator, Amy Richardson, and my Code Institute SME, Kevin Loughrey, for the support and guidance in the build up and during the development of this project.
 - The Lancs 2024 BC cohort who have been an inspration in providing support and solidarity.
-- My family for testing my work and helping to create images for the project
+- My family for testing my work and helping to create images for the project.

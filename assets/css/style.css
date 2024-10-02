@@ -115,11 +115,6 @@ h2 {
     text-decoration: underline;
 }
 
-#menu a:focus {
-    color: black;
-    text-decoration: underline;
-}
-
 #quotes {
     display: flex;
     flex-wrap: wrap;
