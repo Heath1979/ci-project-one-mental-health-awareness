@@ -22,16 +22,12 @@ Project MHFA is an organisation that recognises the need for Mental Health suppo
   * [Imagery](#imagery)
 * [Page Features](#page-features)
   * [Navbar](#navbar)
-  * [Hero-Image](#hero-image)
-  * [Tagline & Call to Action](#tagline--call-to-action)
-  * [Business Ethos](#business-ethos)
-  * [Menu Page](#menu-page)
-  * [Contact Page](#contact-page)
+  * [brand-Image](#brand-image)
   * [Footer](#footer)  
 * [Tablet & Mobile View](#tablet--mobile-view)
   * [Desktop, Tablet & Mobile Differences](#desktop-tablet--mobile-differences)
-  * [Tablet View](#tablet-view-ipad-miniipad-prosurface-pro)
-  * [Mobile View](#mobile-view-iphone-5iphone-seiphone-xriphone-12-pro)
+  * [Mobile View](#mobile-view-iphonese)
+  * [Laptop View](#laptop-view-msi-modern-15-h-b13m)
 * [Future Features](#future-features)
 * [Technologies Used](#technologies-used)
   * [Languages Used](#languages-used)
@@ -62,29 +58,26 @@ Project MHFA wants to set up a user friendly page that provides basic common Men
 Mental Health illness can strike anybody at any time and visitors should have an overview of common sypmtoms and potential aids to alleviate those symptoms. Vistors should be under no illusion that the aids are a substitute for clinical advice but to be used as a support. Users should also be able to understand what the potential benefits are of having MHFA's within the workplace.
 
 ### **First Time Visitor**
+
   - A user can access each element of the site with one click via the navigation bar.
   - A user can find directions to access clinical advice via the footer.
   - A user can find supporting links to the content through the resource section.
 
 ### **Returning Visitor**  
+
   - A user can find inspiration from the quote section.
   
-### **Frequent Visitor**  
-  - 
-
 --- 
 
 ## Creation Process  
   
 ### **1. Strategy**  
 
-
 - I required an easy-to-read, dependable website that delivers clear information about common symptoms of Mental Health issues and relevant aids.  
 - Links to further resources and urgent care should be available.  
 - The site must have a warming and calming palette.   
 - Mobile responsiveness is an essential feature required for this website.
   
-
 ### **2. Scope**  
 
 The Project MHFA site must be available on a wide range of devices due to the varied range of potential users. The user base is huge in scope given that it should provide support to those who live with Mental Health issues, and provide advocacy support for thos who want to introduce the project into the workplace. 
@@ -94,14 +87,12 @@ The Project MHFA site must be available on a wide range of devices due to the va
 - A brief supporting passage for MHFA advocacy should be present on the landing page  
 - For future development, a contact system should be put in place to allow for organisations to reach out on information to develop in-house MHFA deployment.
   
-
 ### **3. Structural**  
 
 Similar to the idea for the design and layout to be accessible and functional, simple navigation and interactivity were essential. The site needed to provide information swiftly no matter the age of the user.  
 - Easy to identify, clickable links with a consistent layout. The design was to be predictable in line with current trends. 
 - Any buttons or links had to provide feedback to the user to identify their purpose in the form of a design change that followed the flow of the overall aesthetic.   
 
-  
 ### **4. Skeleton**  
 
 The site was developed to be simple, clear, and familiar.  
@@ -136,7 +127,6 @@ Overall, the design was intended to show that support is available without addin
  
 ---   
   
-  
 ## Design  
 
 ### **Color Scheme**  
@@ -144,16 +134,16 @@ Overall, the design was intended to show that support is available without addin
 The website uses a pallette of pastels in line with the brief that the site should have a caliming effect. The corn silk was intended to be the main background focus initially as outlined in the wireframe but worked better visibily as a background for the header and the footer and contrasted nicely with the background image in the main content section.
   
 ### **Typography**  
+
   [Google Fonts](https://fonts.google.com/) was used to import the Istok-web font used throughout the site. This is a clinical and clean font that aligns with the font of Frutiger that is used on NHS websites.
 
   ![google Fonts Josefin Sans](docs/documentation/google-font-istok-web.png)
         
 ### **Imagery**  
+
   Scope was to use calming images. Central background is a pastel image that opens into a sunset on larger screens and whilst visually different on various screens adds a pleaseing aspect. At the head of the page I wanted to try and focus on the idea that of people being given help in the workplace.
 
-
 ---  
-  
 
 ## Page Features  
 
@@ -190,7 +180,6 @@ The footer contains clickable links to social media sites and is consistent acro
 
 ---   
 
-
 ## Tablet & Mobile View  
  
 ### **Desktop, Tablet & Mobile Differences**  
@@ -217,7 +206,6 @@ To ensure responsivity I used flexbox in my CSS styling. content is aligned to t
   
 ---   
   
-
 ## Technologies Used    
 
 ### **Languages Used**   
@@ -297,7 +285,6 @@ The results of feature testing are as follows:
 ![screenshot of CSS validation for MHFA](docs/documentation/w3c-css-validator.png)
 </details>   
 
-
 <br>  
 
 ### **Lighthouse scores via Chrome Developer Tools**   
@@ -310,7 +297,6 @@ For Desktop
 </details> 
 <details >
   
-  
 ### **Bugs & Fixes**  
 
 | Bug | Section | Fix |
@@ -321,7 +307,6 @@ For Desktop
 | List elements not aligning correctly when moved centrally at larger screen sizes | Main | Contained list elements within a div to move centrally and then align the contents to the left |
 | Disc symbols on lists disappeared when adding wildcard styling to CSS | Main | Removed padding from wildcard selector |
 | Navigation elements would not center on larger screen sizes | Header | Temporary fix using absolute margin-left value. Needs further investigation into flexbox in order to align content centrally |  
-
 
 ### **Unsolved Bugs** 
 
