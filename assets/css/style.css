@@ -27,7 +27,7 @@ header {
 img {
     border-radius: 50%;
     height: 10vh;
-    width: 10vw;
+    width: 10vh;
 }
 
 #brand-header {
@@ -190,7 +190,7 @@ footer i {
 img {
     border-radius: 50%;
     height: 10vh;
-    width: 15vw;
+    width: 20vh;
 }
 
 #brand-header {
@@ -202,8 +202,7 @@ img {
 @media screen and (min-width: 992px) {
 
     #menu {
-        display: flex;
-        justify-content: center;
+       margin-left: 400px;
     }
 
 }
