@@ -110,7 +110,7 @@ h2 {
     text-decoration: none;
 }
 
-#links a:hover {
+#links a:focus {
     color: black;
     text-decoration: underline;
 }

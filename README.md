@@ -161,43 +161,32 @@ The website uses a pallette of pastels in line with the brief that the site shou
 <details open>
 <summary></summary>  
 
-![screenshot of navbar](docs/documentation/) 
+![screenshot of navbar](docs/documentation/nav-image.png) 
+![screenshot of navbar](docs/documentation/navbar-large.png) 
+
 </details>
+Navbar opens in mobile view, but displayed in larger screen sizes at the bottom center of the header.
 
 <br>  
 
+### **Brand Image**  
+<details open>  
+<summary></summary>
+
+![screenshot of hero image](docs/documentation/brand-circle.png) 
+![screenshot of hero image](docs/documentation/brand-oval.png)  
+</details>
+Brand image set in a circle shape on mobile and opens to a oval in larger screensizes.
+
 <br> 
-
-<br>
-
-  
-### **Menu Page** 
-<details>
-<summary></summary> 
-
-![screenshot of menu page](docs/documentation/)  
-</details>
-
-
-<br>
-
-### **Contact Page**  
-<details>
-<summary></summary> 
- 
-![screenshot of contact us page](docs/documentation/)  
-</details>
-
-
-<br>
 
 ### **Footer**  
 <details>
 <summary></summary>
 
-![screenshot of footer](docs/documentation/)
+![screenshot of footer](docs/documentation/footer.png)
 </details>
-
+The footer contains clickable links to social media sites and is consistent across all screen sizes.
 
 ---   
 
@@ -206,15 +195,16 @@ The website uses a pallette of pastels in line with the brief that the site shou
  
 ### **Desktop, Tablet & Mobile Differences**  
   
-
-  
-### **Tablet View (iPad Mini/iPad Pro/Surface Pro)**  
+To ensure responsivity I used flexbox in my CSS styling. content is aligned to the left o the page on mobile devices but moves centrally on larger screen sizes.
   
 
-
-
-### **Mobile View (iPhone 5/iPhone SE/iPhone XR/iPhone 12 Pro)**  
+### **Mobile View (iPhone SE)**  
   
+![screenshots of MHFA website on iphone SE](docs/documentation/iphone-se.png)
+
+### **laptop view (MSI Modern 15 H B13M)**  
+  
+![screenshots of MHFA website on iphone SE](docs/documentation/laptop.png)
 
 ---  
                               
@@ -237,6 +227,15 @@ The website uses a pallette of pastels in line with the brief that the site shou
 
 ### **Frameworks, Libraries, Technologies & Programs Used**  
 
+- Balsamiq - used to create wireframes and edit images 
+- GitHub - used to save and store all files for this website  
+- Git - used for version control
+- Google Fonts - fonts were imported from here 
+- Font Awesome - icons and their associated kit were downloaded from here  
+- Google Dev Tools - to debug and for testing responsiveness 
+- Google Lighthouse - for auditing the website
+- W3C Validator - for validating the HTML and CSS code 
+- Convertio - to compress images 
 
 ## Deployment
 
