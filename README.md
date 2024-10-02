@@ -314,6 +314,7 @@ For Desktop
 - Hover pseudo prperty does not work on the navigation aspects in the nav bar. Suspect related to other Nav bar issues.
 - Hoped to add HR breaks bewteen the quotes to underline 75% of the quote. Styling on these affected the HR lines in the header.
 - Background image set in style.css is not responsive. 
+- Hover pseudo element not working on the reference links. Only works after the link has been activated.
 
 ## Credits  
   
