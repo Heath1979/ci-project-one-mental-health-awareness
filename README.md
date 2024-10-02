@@ -1,12 +1,12 @@
 # Project MHFA
 
-[View live project here on GitHub](Insert project URL)
+[View live project here on GitHub](https://heath1979.github.io/ci-project-one-mental-health-awareness/)
 
 Project MHFA is an organisation that recognises the need for Mental Health support within the workplace. The goal of the site is to show organisations the impact of Mental Health issues on produtivity and give some basic guidance on the benefits of providing in-house organisational support.
 
 <br>  
   
-![screenshot of landing page](isert screenshot of header  into docs/documentation/image)
+![screenshot of landing page](docs/documentation/project-header.png)
 
 ---
 
@@ -236,8 +236,11 @@ To ensure responsivity I used flexbox in my CSS styling. content is aligned to t
 - Google Lighthouse - for auditing the website
 - W3C Validator - for validating the HTML and CSS code 
 - Convertio - to compress images 
+- Favicon.io - for MHFA favicon  
 
 ## Deployment
+
+### **How to deploy**  
 
 GitHub was used to deploy the website. These were the steps taken to acheive this:  
 
@@ -251,22 +254,33 @@ GitHub was used to deploy the website. These were the steps taken to acheive thi
 
 ![screenshot of how to deploy site on github](docs/documentation/deployment-information.png) 
 
-### **How to deploy**  
-
-
-
 ---  
     
-
 ## Testing  
 
 ### **Initial testing plan**
 
-  
+  I had planned for this site to be accessible and legible on all screen sizes. The user is viewing the site primarily to understand the role of MHFA in the workplace and to understand potential symptoms and aids to mental health illness. I used Chrome Dev Tools to test, tweak and debug in the early stages. I deployed my site halfway through to test on real-world devices. These devices included:  
+- MSI laptop 15.6"  
+- iphone SE
+
 ### **Testing**    
 
-
+Testing took place throughout the entire build using Dev Tools on Chrome and on the above real-world devices. The browsers used were:  
+- Chrome   
+- Edge  
+- Safari  
  
+The results of feature testing are as follows:  
+  
+| Page | Test | Pass/Fail |
+| :----| :----| :--------:|
+| All  | Underline appears under the references links when the mouse hovers in Chrome| Pass |
+| All  | Underline appears under the references links when the mouse hovers in Edge| Fail |
+| All  | Navigation links bring the user to relevant section of the page | Pass |
+| All  | Footer social media icons bring the user to relevant sites via a new tab | Pass |
+| All  | Sections are responsive in different media sizes | Pass |
+
 ### **HTML Validation using W3C Validation**  
 
 <br>  
