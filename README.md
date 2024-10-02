@@ -306,11 +306,10 @@ For Desktop
 | Navbar opened selection menu in the center of the page | Header | Changed position to relative instead of fixed |
 | List elements not aligning correctly when moved centrally at larger screen sizes | Main | Contained list elements within a div to move centrally and then align the contents to the left |
 | Disc symbols on lists disappeared when adding wildcard styling to CSS | Main | Removed padding from wildcard selector |
-| Navigation elements would not center on larger screen sizes | Header | Temporary fix using absolute margin-left value. Needs further investigation into flexbox in order to align content centrally |  
+| Navigation elements would not center on larger screen sizes | Header | Used flexbox to center the nav element and then move options into a rom and remove left padding that was moving the options off center |  
 
 ### **Unsolved Bugs** 
 
-- Navigation elements will not align correctly without the use of absolute styling. Further invetigation is required on the flexbox properties.
 - Navigation bar opens to the left in mobile instead of underneath. Probably that the whole brand-nav-statement section needs a re-build.
 - Hover pseudo prperty does not work on the navigation aspects in the nav bar. Suspect related to other Nav bar issues.
 - Hoped to add HR breaks bewteen the quotes to underline 75% of the quote. Styling on these affected the HR lines in the header.
