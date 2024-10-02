@@ -10,7 +10,7 @@
 body {
     font-family: "istok web", arial, sans-serif;
     color: green;
-    background: url('../images/sunrise-pastel.png') no-repeat center/cover;
+    background: url('../images/sunrise-pastel.webp') no-repeat center/cover;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
