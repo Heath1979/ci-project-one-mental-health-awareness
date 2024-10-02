@@ -282,6 +282,11 @@ The results of feature testing are as follows:
 | All  | Sections are responsive in different media sizes | Pass |
 
 ### **HTML Validation using W3C Validation**  
+<details open>
+<summary>Index page HTML validation</summary>  
+
+![screenshot of index page w3c html validation for MHFA](docs/documentation/w3validator-index.html.png)
+</details>   
 
 <br>  
 
