@@ -19,7 +19,6 @@ body {
 /* header */
 
 header {
-    position: fixed;
     width: 100%;
     background-color: cornsilk;
 }
@@ -97,7 +96,7 @@ nav {
 /*main*/
 
 main {
-    margin: 160px 10px 35px 10px;
+    margin: 35px 10px 35px 10px;
 }
 
 h2 {
