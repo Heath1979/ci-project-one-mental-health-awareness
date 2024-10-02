@@ -141,14 +141,15 @@ Overall, the design was intended to show that support is available without addin
 
 ### **Color Scheme**  
 
-
+The website uses a pallette of pastels in line with the brief that the site should have a caliming effect. The corn silk was intended to be the main background focus initially as outlined in the wireframe but worked better visibily as a background for the header and the footer and contrasted nicely with the background image in the main content section.
   
 ### **Typography**  
-  Looked to kepp typography in line with NHS fonts. NHS uses a font called frutiger. Nearest available on google fonts was Istok-Web
+  [Google Fonts](https://fonts.google.com/) was used to import the Istok-web font used throughout the site. This is a clinical and clean font that aligns with the font of Frutiger that is used on NHS websites.
 
+  ![google Fonts Josefin Sans](docs/documentation/google-font-istok-web.png)
         
 ### **Imagery**  
-  Scope was to use calming images. Central background is a pastel image that opens into a sunset on larger screens and whilst visually different on various screens adds a pleaseing aspect. At the head of the page I wanted to try and focus on the idea that of people being given help in the workplace. The final in the quotes section is of a dog in the Scottish Highlands. This section sits directly under the aids to alleviate issues section and has been used in an attempt to underline the idea of being out in nature and also pet therapy.
+  Scope was to use calming images. Central background is a pastel image that opens into a sunset on larger screens and whilst visually different on various screens adds a pleaseing aspect. At the head of the page I wanted to try and focus on the idea that of people being given help in the workplace.
 
 
 ---  
